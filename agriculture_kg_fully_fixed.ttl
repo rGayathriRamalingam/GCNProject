@@ -1,0 +1,1898 @@
+
+@prefix agri: <http://example.org/agriculture#> .
+@prefix rel: <http://example.org/relationship#> .
+
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Wheat rel:is_cultivated_in agri:Temperate_Climate .
+agri:Corn rel:requires agri:Moderate_Rainfall .
+agri:Rice rel:grows_in agri:Flooded_Fields .
+agri:Barley rel:thrives_in agri:Cool_Climate .
+agri:Sugarcane rel:needs agri:High_Temperature .
+agri:Clay_Soil rel:retains agri:Moisture .
+agri:Sandy_Soil rel:drains agri:Water_Fast .
+agri:Loamy_Soil rel:is_ideal_for agri:Crop_Growth .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Tractor rel:is_used_for agri:Plowing .
+agri:Harvester rel:is_used_for agri:Harvesting .
+agri:Irrigation_System rel:provides agri:Water_Supply .
+agri:Drone rel:monitors agri:Crop_Health .
+agri:Seeder rel:plants agri:Seeds .
+agri:Crop_Rotation rel:improves agri:Soil_Fertility .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Precision_Farming rel:optimizes agri:Resource_Usage .
+agri:Hydroponics rel:grows agri:Plants_Without_Soil .
+agri:Agroforestry rel:combines agri:Crops_and_Trees .
+agri:Subsidy rel:supports agri:Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Losses .
+agri:Export_Regulation rel:controls agri:Trade_Policies .
+agri:Farm_Loan rel:provides agri:Financial_Assistance .
+agri:Agri_Research rel:develops agri:New_Seed_Varieties .
+agri:Rainfall rel:affects agri:Crop_Yield .
+agri:Drought rel:reduces agri:Soil_Moisture .
+agri:Flood rel:damages agri:Agricultural_Land .
+agri:Climate_Change rel:impacts agri:Farming_Practices .
+agri:Temperature rel:influences agri:Growing_Season .
+agri:Warehouse rel:stores agri:Harvested_Produce .
+agri:Distributor rel:delivers agri:Farm_Products .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Consumer rel:buys agri:Agricultural_Products .
+agri:Exporter rel:ships agri:Grains .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Carbon_Footprint rel:measures agri:Emission_Levels .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Millet rel:is_cultivated_in agri:Arid_Regions .
+agri:Oats rel:requires agri:Cool_Weather .
+agri:Sunflower rel:thrives_in agri:Warm_Climate .
+agri:Soybean rel:benefits_from agri:Crop_Rotation .
+agri:Sorghum rel:is_resistant_to agri:Drought .
+agri:Loamy_Soil rel:enhances agri:Root_Growth .
+agri:Organic_Fertilizer rel:improves agri:Soil_Nutrients .
+agri:Compost rel:boosts agri:Soil_Health .
+agri:Phosphorus rel:promotes agri:Root_Development .
+agri:Potassium rel:strengthens agri:Crop_Resistance .
+agri:Plow rel:prepares agri:Soil_for_Planting .
+agri:Sprinkler rel:provides agri:Irrigation .
+agri:Greenhouse rel:protects_against agri:Extreme_Weather .
+agri:Seeder rel:plants agri:Grains .
+agri:Harvester rel:collects agri:Crops .
+agri:Pollination rel:enhances agri:Crop_Yield .
+agri:Wind_Erosion rel:reduces agri:Soil_Fertility .
+agri:Excess_Rainfall rel:causes agri:Waterlogging .
+agri:High_Humidity rel:promotes agri:Fungal_Infections .
+agri:Frost rel:damages agri:Sensitive_Crops .
+agri:Govt_Subsidy rel:supports agri:Small_Farmers .
+agri:Export_Tax rel:regulates agri:Trade .
+agri:Organic_Certification rel:ensures agri:Quality_Standards .
+agri:Weather_Insurance rel:protects agri:Farmers .
+agri:Farming_Loan rel:funds agri:Agricultural_Equipment .
+agri:Cooperative rel:markets agri:Farm_Produce .
+agri:Distributor rel:delivers agri:Agri_Products .
+agri:Retailer rel:offers agri:Organic_Food .
+agri:Wholesaler rel:buys_in_bulk agri:Grains .
+agri:Logistics_Company rel:transports agri:Fresh_Produce .
+agri:Millet rel:is_cultivated_in agri:Arid_Regions .
+agri:Oats rel:requires agri:Cool_Weather .
+agri:Sunflower rel:thrives_in agri:Warm_Climate .
+agri:Soybean rel:benefits_from agri:Crop_Rotation .
+agri:Sorghum rel:is_resistant_to agri:Drought .
+agri:Loamy_Soil rel:enhances agri:Root_Growth .
+agri:Organic_Fertilizer rel:improves agri:Soil_Nutrients .
+agri:Compost rel:boosts agri:Soil_Health .
+agri:Phosphorus rel:promotes agri:Root_Development .
+agri:Potassium rel:strengthens agri:Crop_Resistance .
+agri:Plow rel:prepares agri:Soil_for_Planting .
+agri:Sprinkler rel:provides agri:Irrigation .
+agri:Greenhouse rel:protects_against agri:Extreme_Weather .
+agri:Seeder rel:plants agri:Grains .
+agri:Harvester rel:collects agri:Crops .
+agri:Pollination rel:enhances agri:Crop_Yield .
+agri:Wind_Erosion rel:reduces agri:Soil_Fertility .
+agri:Excess_Rainfall rel:causes agri:Waterlogging .
+agri:High_Humidity rel:promotes agri:Fungal_Infections .
+agri:Frost rel:damages agri:Sensitive_Crops .
+agri:Govt_Subsidy rel:supports agri:Small_Farmers .
+agri:Export_Tax rel:regulates agri:Trade .
+agri:Organic_Certification rel:ensures agri:Quality_Standards .
+agri:Weather_Insurance rel:protects agri:Farmers .
+agri:Farming_Loan rel:funds agri:Agricultural_Equipment .
+agri:Cooperative rel:markets agri:Farm_Produce .
+agri:Distributor rel:delivers agri:Agri_Products .
+agri:Retailer rel:offers agri:Organic_Food .
+agri:Wholesaler rel:buys_in_bulk agri:Grains .
+agri:Logistics_Company rel:transports agri:Fresh_Produce .
+agri:Wheat rel:is_processed_into agri:Flour .
+agri:Corn rel:is_used_for agri:Animal_Feed .
+agri:Rice rel:is_exported_to agri:Asia .
+agri:Barley rel:is_ingredient_in agri:Beer_Production .
+agri:Sugarcane rel:produces agri:Sugar .
+agri:Loamy_Soil rel:is_enriched_by agri:Organic_Fertilizer .
+agri:Clay_Soil rel:benefits_from agri:Compost .
+agri:Sandy_Soil rel:needs agri:Frequent_Irrigation .
+agri:Rainfall rel:impacts agri:Soil_Moisture .
+agri:Drought rel:decreases agri:Crop_Yield .
+agri:Flood rel:causes agri:Soil_Erosion .
+agri:Temperature rel:affects agri:Crop_Growth .
+agri:Tractor rel:pulls agri:Plow .
+agri:Drone rel:monitors agri:Weather_Conditions .
+agri:Irrigation_System rel:supplies agri:Water .
+agri:Warehouse rel:stores agri:Fresh_Produce .
+agri:Retailer rel:sells agri:Grains .
+agri:Distributor rel:transports agri:Agri_Products .
+agri:Subsidy rel:supports agri:Organic_Farming .
+agri:Export_Tax rel:regulates agri:Agricultural_Trade .
+agri:Crop_Insurance rel:protects agri:Farmers_from_Losses .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Agri_Research rel:develops agri:Drought_Resistant_Crops .
+agri:Precision_Farming rel:utilizes agri:AI_Technology .
+agri:AgriTech_Startup rel:partners_with agri:Farming_Cooperatives .
+agri:Wheat rel:is_processed_into agri:Flour .
+agri:Corn rel:is_used_for agri:Animal_Feed .
+agri:Rice rel:is_exported_to agri:Asia .
+agri:Barley rel:is_ingredient_in agri:Beer_Production .
+agri:Sugarcane rel:produces agri:Sugar .
+agri:Loamy_Soil rel:is_enriched_by agri:Organic_Fertilizer .
+agri:Clay_Soil rel:benefits_from agri:Compost .
+agri:Sandy_Soil rel:needs agri:Frequent_Irrigation .
+agri:Rainfall rel:impacts agri:Soil_Moisture .
+agri:Drought rel:decreases agri:Crop_Yield .
+agri:Flood rel:causes agri:Soil_Erosion .
+agri:Temperature rel:affects agri:Crop_Growth .
+agri:Tractor rel:pulls agri:Plow .
+agri:Drone rel:monitors agri:Weather_Conditions .
+agri:Irrigation_System rel:supplies agri:Water .
+agri:Warehouse rel:stores agri:Fresh_Produce .
+agri:Retailer rel:sells agri:Grains .
+agri:Distributor rel:transports agri:Agri_Products .
+agri:Subsidy rel:supports agri:Organic_Farming .
+agri:Export_Tax rel:regulates agri:Agricultural_Trade .
+agri:Crop_Insurance rel:protects agri:Farmers_from_Losses .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Agri_Research rel:develops agri:Drought_Resistant_Crops .
+agri:Precision_Farming rel:utilizes agri:AI_Technology .
+agri:AgriTech_Startup rel:partners_with agri:Farming_Cooperatives .
+agri:Wheat rel:is_processed_into agri:Flour .
+agri:Corn rel:is_used_for agri:Animal_Feed .
+agri:Rice rel:is_exported_to agri:Asia .
+agri:Barley rel:is_ingredient_in agri:Beer_Production .
+agri:Sugarcane rel:produces agri:Sugar .
+agri:Loamy_Soil rel:is_enriched_by agri:Organic_Fertilizer .
+agri:Clay_Soil rel:benefits_from agri:Compost .
+agri:Sandy_Soil rel:needs agri:Frequent_Irrigation .
+agri:Rainfall rel:impacts agri:Soil_Moisture .
+agri:Drought rel:decreases agri:Crop_Yield .
+agri:Flood rel:causes agri:Soil_Erosion .
+agri:Temperature rel:affects agri:Crop_Growth .
+agri:Tractor rel:pulls agri:Plow .
+agri:Drone rel:monitors agri:Weather_Conditions .
+agri:Irrigation_System rel:supplies agri:Water .
+agri:Warehouse rel:stores agri:Fresh_Produce .
+agri:Retailer rel:sells agri:Grains .
+agri:Distributor rel:transports agri:Agri_Products .
+agri:Subsidy rel:supports agri:Organic_Farming .
+agri:Export_Tax rel:regulates agri:Agricultural_Trade .
+agri:Crop_Insurance rel:protects agri:Farmers_from_Losses .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Agri_Research rel:develops agri:Drought_Resistant_Crops .
+agri:Precision_Farming rel:utilizes agri:AI_Technology .
+agri:AgriTech_Startup rel:partners_with agri:Farming_Cooperatives .
+agri:Wheat rel:is_processed_into agri:Flour .
+agri:Corn rel:is_used_for agri:Animal_Feed .
+agri:Rice rel:is_exported_to agri:Asia .
+agri:Barley rel:is_ingredient_in agri:Beer_Production .
+agri:Sugarcane rel:produces agri:Sugar .
+agri:Loamy_Soil rel:is_enriched_by agri:Organic_Fertilizer .
+agri:Clay_Soil rel:benefits_from agri:Compost .
+agri:Sandy_Soil rel:needs agri:Frequent_Irrigation .
+agri:Rainfall rel:impacts agri:Soil_Moisture .
+agri:Drought rel:decreases agri:Crop_Yield .
+agri:Flood rel:causes agri:Soil_Erosion .
+agri:Temperature rel:affects agri:Crop_Growth .
+agri:Tractor rel:pulls agri:Plow .
+agri:Drone rel:monitors agri:Weather_Conditions .
+agri:Irrigation_System rel:supplies agri:Water .
+agri:Warehouse rel:stores agri:Fresh_Produce .
+agri:Retailer rel:sells agri:Grains .
+agri:Distributor rel:transports agri:Agri_Products .
+agri:Subsidy rel:supports agri:Organic_Farming .
+agri:Export_Tax rel:regulates agri:Agricultural_Trade .
+agri:Crop_Insurance rel:protects agri:Farmers_from_Losses .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Irrigation_Resources .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Agri_Research rel:develops agri:Drought_Resistant_Crops .
+agri:Precision_Farming rel:utilizes agri:AI_Technology .
+agri:AgriTech_Startup rel:partners_with agri:Farming_Cooperatives .
+agri:Wheat rel:benefits_from agri:Loamy_Soil .
+agri:Corn rel:requires agri:Fertilizer_Application .
+agri:Rice rel:is_irrigated_by agri:Irrigation_System .
+agri:Barley rel:thrives_with agri:Compost .
+agri:Sugarcane rel:is_harvested_with agri:Harvester .
+agri:Clay_Soil rel:holds agri:Moisture_Longest .
+agri:Sandy_Soil rel:is_susceptible_to agri:Erosion .
+agri:Loamy_Soil rel:improves agri:Crop_Yield .
+agri:Peat_Soil rel:enhances agri:Carbon_Sequestration .
+agri:Drone rel:captures agri:Field_Images .
+agri:Sprinkler rel:distributes agri:Water_Evenly .
+agri:Seeder rel:plants agri:Grains_Quickly .
+agri:Tractor rel:powers agri:Farm_Equipment .
+agri:Rainfall rel:nourishes agri:Crops .
+agri:Drought rel:stresses agri:Soil .
+agri:Flood rel:damages agri:Infrastructure .
+agri:Temperature rel:affects agri:Growing_Season .
+agri:Warehouse rel:distributes agri:Fresh_Produce .
+agri:Retailer rel:purchases agri:Organic_Products .
+agri:Exporter rel:ships agri:Grains_Overseas .
+agri:Logistics_Company rel:transports agri:Farm_Equipment .
+agri:Subsidy rel:aids agri:Small_Farmers .
+agri:Export_Tax rel:regulates agri:Trade_Policies .
+agri:Crop_Insurance rel:compensates agri:Weather_Losses .
+agri:Agri_Research rel:develops agri:Pest_Resistant_Crops .
+agri:Precision_Farming rel:utilizes agri:Satellite_Imaging .
+agri:AgriTech_Startup rel:collaborates_with agri:Universities .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Water_Resources .
+agri:Agroecology rel:promotes agri:Sustainable_Farming .
+agri:Soil_Conservation rel:prevents agri:Land_Degradation .
+agri:Crop_Rotation rel:enhances agri:Soil_Health .
+agri:Organic_Farming rel:reduces agri:Chemical_Use .
+agri:Greenhouse rel:protects agri:Temperature_Sensitive_Crops .
+agri:Precision_Farming rel:improves agri:Resource_Efficiency .
+agri:Farming_Cooperative rel:collaborates_with agri:AgriTech_Startup .
+agri:Farm_Loan rel:funds agri:Equipment_Investment .
+agri:Govt_Grant rel:supports agri:Sustainable_Practices .
+agri:Export_Regulation rel:impacts agri:International_Trade .
+agri:Wheat rel:benefits_from agri:Loamy_Soil .
+agri:Corn rel:requires agri:Fertilizer_Application .
+agri:Rice rel:is_irrigated_by agri:Irrigation_System .
+agri:Barley rel:thrives_with agri:Compost .
+agri:Sugarcane rel:is_harvested_with agri:Harvester .
+agri:Clay_Soil rel:holds agri:Moisture_Longest .
+agri:Sandy_Soil rel:is_susceptible_to agri:Erosion .
+agri:Loamy_Soil rel:improves agri:Crop_Yield .
+agri:Peat_Soil rel:enhances agri:Carbon_Sequestration .
+agri:Drone rel:captures agri:Field_Images .
+agri:Sprinkler rel:distributes agri:Water_Evenly .
+agri:Seeder rel:plants agri:Grains_Quickly .
+agri:Tractor rel:powers agri:Farm_Equipment .
+agri:Rainfall rel:nourishes agri:Crops .
+agri:Drought rel:stresses agri:Soil .
+agri:Flood rel:damages agri:Infrastructure .
+agri:Temperature rel:affects agri:Growing_Season .
+agri:Warehouse rel:distributes agri:Fresh_Produce .
+agri:Retailer rel:purchases agri:Organic_Products .
+agri:Exporter rel:ships agri:Grains_Overseas .
+agri:Logistics_Company rel:transports agri:Farm_Equipment .
+agri:Subsidy rel:aids agri:Small_Farmers .
+agri:Export_Tax rel:regulates agri:Trade_Policies .
+agri:Crop_Insurance rel:compensates agri:Weather_Losses .
+agri:Agri_Research rel:develops agri:Pest_Resistant_Crops .
+agri:Precision_Farming rel:utilizes agri:Satellite_Imaging .
+agri:AgriTech_Startup rel:collaborates_with agri:Universities .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Water_Resources .
+agri:Agroecology rel:promotes agri:Sustainable_Farming .
+agri:Soil_Conservation rel:prevents agri:Land_Degradation .
+agri:Crop_Rotation rel:enhances agri:Soil_Health .
+agri:Organic_Farming rel:reduces agri:Chemical_Use .
+agri:Greenhouse rel:protects agri:Temperature_Sensitive_Crops .
+agri:Precision_Farming rel:improves agri:Resource_Efficiency .
+agri:Farming_Cooperative rel:collaborates_with agri:AgriTech_Startup .
+agri:Farm_Loan rel:funds agri:Equipment_Investment .
+agri:Govt_Grant rel:supports agri:Sustainable_Practices .
+agri:Export_Regulation rel:impacts agri:International_Trade .
+agri:Wheat rel:benefits_from agri:Loamy_Soil .
+agri:Corn rel:requires agri:Fertilizer_Application .
+agri:Rice rel:is_irrigated_by agri:Irrigation_System .
+agri:Barley rel:thrives_with agri:Compost .
+agri:Sugarcane rel:is_harvested_with agri:Harvester .
+agri:Clay_Soil rel:holds agri:Moisture_Longest .
+agri:Sandy_Soil rel:is_susceptible_to agri:Erosion .
+agri:Loamy_Soil rel:improves agri:Crop_Yield .
+agri:Peat_Soil rel:enhances agri:Carbon_Sequestration .
+agri:Drone rel:captures agri:Field_Images .
+agri:Sprinkler rel:distributes agri:Water_Evenly .
+agri:Seeder rel:plants agri:Grains_Quickly .
+agri:Tractor rel:powers agri:Farm_Equipment .
+agri:Rainfall rel:nourishes agri:Crops .
+agri:Drought rel:stresses agri:Soil .
+agri:Flood rel:damages agri:Infrastructure .
+agri:Temperature rel:affects agri:Growing_Season .
+agri:Warehouse rel:distributes agri:Fresh_Produce .
+agri:Retailer rel:purchases agri:Organic_Products .
+agri:Exporter rel:ships agri:Grains_Overseas .
+agri:Logistics_Company rel:transports agri:Farm_Equipment .
+agri:Subsidy rel:aids agri:Small_Farmers .
+agri:Export_Tax rel:regulates agri:Trade_Policies .
+agri:Crop_Insurance rel:compensates agri:Weather_Losses .
+agri:Agri_Research rel:develops agri:Pest_Resistant_Crops .
+agri:Precision_Farming rel:utilizes agri:Satellite_Imaging .
+agri:AgriTech_Startup rel:collaborates_with agri:Universities .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Water_Resources .
+agri:Agroecology rel:promotes agri:Sustainable_Farming .
+agri:Soil_Conservation rel:prevents agri:Land_Degradation .
+agri:Crop_Rotation rel:enhances agri:Soil_Health .
+agri:Organic_Farming rel:reduces agri:Chemical_Use .
+agri:Greenhouse rel:protects agri:Temperature_Sensitive_Crops .
+agri:Precision_Farming rel:improves agri:Resource_Efficiency .
+agri:Farming_Cooperative rel:collaborates_with agri:AgriTech_Startup .
+agri:Farm_Loan rel:funds agri:Equipment_Investment .
+agri:Govt_Grant rel:supports agri:Sustainable_Practices .
+agri:Export_Regulation rel:impacts agri:International_Trade .
+agri:Wheat rel:benefits_from agri:Loamy_Soil .
+agri:Corn rel:requires agri:Fertilizer_Application .
+agri:Rice rel:is_irrigated_by agri:Irrigation_System .
+agri:Barley rel:thrives_with agri:Compost .
+agri:Sugarcane rel:is_harvested_with agri:Harvester .
+agri:Clay_Soil rel:holds agri:Moisture_Longest .
+agri:Sandy_Soil rel:is_susceptible_to agri:Erosion .
+agri:Loamy_Soil rel:improves agri:Crop_Yield .
+agri:Peat_Soil rel:enhances agri:Carbon_Sequestration .
+agri:Drone rel:captures agri:Field_Images .
+agri:Sprinkler rel:distributes agri:Water_Evenly .
+agri:Seeder rel:plants agri:Grains_Quickly .
+agri:Tractor rel:powers agri:Farm_Equipment .
+agri:Rainfall rel:nourishes agri:Crops .
+agri:Drought rel:stresses agri:Soil .
+agri:Flood rel:damages agri:Infrastructure .
+agri:Temperature rel:affects agri:Growing_Season .
+agri:Warehouse rel:distributes agri:Fresh_Produce .
+agri:Retailer rel:purchases agri:Organic_Products .
+agri:Exporter rel:ships agri:Grains_Overseas .
+agri:Logistics_Company rel:transports agri:Farm_Equipment .
+agri:Subsidy rel:aids agri:Small_Farmers .
+agri:Export_Tax rel:regulates agri:Trade_Policies .
+agri:Crop_Insurance rel:compensates agri:Weather_Losses .
+agri:Agri_Research rel:develops agri:Pest_Resistant_Crops .
+agri:Precision_Farming rel:utilizes agri:Satellite_Imaging .
+agri:AgriTech_Startup rel:collaborates_with agri:Universities .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Water_Resources .
+agri:Agroecology rel:promotes agri:Sustainable_Farming .
+agri:Soil_Conservation rel:prevents agri:Land_Degradation .
+agri:Crop_Rotation rel:enhances agri:Soil_Health .
+agri:Organic_Farming rel:reduces agri:Chemical_Use .
+agri:Greenhouse rel:protects agri:Temperature_Sensitive_Crops .
+agri:Precision_Farming rel:improves agri:Resource_Efficiency .
+agri:Farming_Cooperative rel:collaborates_with agri:AgriTech_Startup .
+agri:Farm_Loan rel:funds agri:Equipment_Investment .
+agri:Govt_Grant rel:supports agri:Sustainable_Practices .
+agri:Export_Regulation rel:impacts agri:International_Trade .
+agri:Wheat rel:benefits_from agri:Loamy_Soil .
+agri:Corn rel:requires agri:Fertilizer_Application .
+agri:Rice rel:is_irrigated_by agri:Irrigation_System .
+agri:Barley rel:thrives_with agri:Compost .
+agri:Sugarcane rel:is_harvested_with agri:Harvester .
+agri:Clay_Soil rel:holds agri:Moisture_Longest .
+agri:Sandy_Soil rel:is_susceptible_to agri:Erosion .
+agri:Loamy_Soil rel:improves agri:Crop_Yield .
+agri:Peat_Soil rel:enhances agri:Carbon_Sequestration .
+agri:Drone rel:captures agri:Field_Images .
+agri:Sprinkler rel:distributes agri:Water_Evenly .
+agri:Seeder rel:plants agri:Grains_Quickly .
+agri:Tractor rel:powers agri:Farm_Equipment .
+agri:Rainfall rel:nourishes agri:Crops .
+agri:Drought rel:stresses agri:Soil .
+agri:Flood rel:damages agri:Infrastructure .
+agri:Temperature rel:affects agri:Growing_Season .
+agri:Warehouse rel:distributes agri:Fresh_Produce .
+agri:Retailer rel:purchases agri:Organic_Products .
+agri:Exporter rel:ships agri:Grains_Overseas .
+agri:Logistics_Company rel:transports agri:Farm_Equipment .
+agri:Subsidy rel:aids agri:Small_Farmers .
+agri:Export_Tax rel:regulates agri:Trade_Policies .
+agri:Crop_Insurance rel:compensates agri:Weather_Losses .
+agri:Agri_Research rel:develops agri:Pest_Resistant_Crops .
+agri:Precision_Farming rel:utilizes agri:Satellite_Imaging .
+agri:AgriTech_Startup rel:collaborates_with agri:Universities .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Water_Resources .
+agri:Agroecology rel:promotes agri:Sustainable_Farming .
+agri:Soil_Conservation rel:prevents agri:Land_Degradation .
+agri:Crop_Rotation rel:enhances agri:Soil_Health .
+agri:Organic_Farming rel:reduces agri:Chemical_Use .
+agri:Greenhouse rel:protects agri:Temperature_Sensitive_Crops .
+agri:Precision_Farming rel:improves agri:Resource_Efficiency .
+agri:Farming_Cooperative rel:collaborates_with agri:AgriTech_Startup .
+agri:Farm_Loan rel:funds agri:Equipment_Investment .
+agri:Govt_Grant rel:supports agri:Sustainable_Practices .
+agri:Export_Regulation rel:impacts agri:International_Trade .
+agri:Wheat rel:is_traded_by agri:Exporter .
+agri:Corn rel:is_shipped_by agri:Logistics_Company .
+agri:Rice rel:is_sold_in agri:Retail_Market .
+agri:Barley rel:is_processed_into agri:Animal_Feed .
+agri:Sugarcane rel:is_supplied_to agri:Sugar_Mills .
+agri:Clay_Soil rel:retains agri:Nutrients_Longest .
+agri:Sandy_Soil rel:requires agri:Frequent_Watering .
+agri:Loamy_Soil rel:enhances agri:Root_Development .
+agri:Peat_Soil rel:improves agri:Organic_Matter_Content .
+agri:Fertilizer rel:boosts agri:Crop_Yield .
+agri:Tractor rel:powers agri:Seeder .
+agri:Drone rel:scans agri:Crop_Health .
+agri:Sprinkler rel:irrigates agri:Farmland .
+agri:Harvester rel:collects agri:Grain .
+agri:Greenhouse rel:protects agri:Young_Crops .
+agri:Rainfall rel:increases agri:Soil_Moisture .
+agri:Drought rel:lowers agri:Crop_Yield .
+agri:Temperature rel:influences agri:Growth_Rate .
+agri:Flood rel:damages agri:Irrigation_Systems .
+agri:Humidity rel:favors agri:Fungal_Growth .
+agri:Warehouse rel:stores agri:Pesticides .
+agri:Retailer rel:offers agri:Fresh_Vegetables .
+agri:Distributor rel:delivers agri:Fertilizers .
+agri:Exporter rel:ships agri:Organic_Products .
+agri:Logistics_Company rel:handles agri:Large_Shipments .
+agri:Subsidy rel:supports agri:Organic_Farming .
+agri:Crop_Insurance rel:protects agri:Farmers_from_Losses .
+agri:Export_Regulation rel:controls agri:Grain_Exports .
+agri:Farm_Loan rel:funds agri:Equipment_Purchase .
+agri:Govt_Grant rel:encourages agri:Sustainable_Practices .
+agri:Agri_Research rel:develops agri:Drought_Resistant_Crops .
+agri:Precision_Farming rel:uses agri:AI_Models .
+agri:AgriTech_Startup rel:partners_with agri:Farmers .
+agri:Universities rel:research agri:Soil_Improvement_Techniques .
+agri:Satellite_Imaging rel:tracks agri:Soil_Erosion .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Freshwater_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Soil_Conservation rel:prevents agri:Erosion .
+agri:Carbon_Farming rel:reduces agri:Greenhouse_Emissions .
+agri:Farmers rel:sell agri:Surplus_Produce .
+agri:Retailers rel:purchase agri:Wholesale_Goods .
+agri:Exporters rel:sign_contracts_with agri:Logistics_Companies .
+agri:Consumers rel:demand agri:Organic_Products .
+agri:Cooperatives rel:negotiate agri:Better_Prices .
+agri:Crop_Rotation rel:enhances agri:Soil_Health .
+agri:Organic_Farming rel:avoids agri:Synthetic_Chemicals .
+agri:Farming_Cooperatives rel:collaborate_with agri:AgriTech_Startups .
+agri:Precision_Farming rel:utilizes agri:Weather_Data .
+agri:Greenhouse rel:provides agri:Controlled_Environment .
+agri:Wheat rel:requires agri:Fertilizer_Application .
+agri:Corn rel:benefits_from agri:Drip_Irrigation .
+agri:Rice rel:is_vulnerable_to agri:Floods .
+agri:Barley rel:needs agri:Moderate_Rainfall .
+agri:Sugarcane rel:is_susceptible_to agri:Pest_Attacks .
+agri:Loamy_Soil rel:is_best_for agri:Vegetables .
+agri:Clay_Soil rel:improves agri:Water_Retention .
+agri:Sandy_Soil rel:needs agri:Frequent_Irrigation .
+agri:Peat_Soil rel:is_rich_in agri:Organic_Matter .
+agri:Compost rel:enhances agri:Soil_Fertility .
+agri:Plow rel:prepares agri:Field_for_Sowing .
+agri:Seeder rel:plants agri:Grain_Seeds .
+agri:Tractor rel:drags agri:Plow .
+agri:Harvester rel:collects agri:Ripened_Crops .
+agri:Drone rel:monitors agri:Field_Health .
+agri:Rainfall rel:increases agri:Soil_Moisture .
+agri:Drought rel:reduces agri:Crop_Production .
+agri:Flood rel:damages agri:Irrigation_Channels .
+agri:Temperature rel:impacts agri:Growing_Season .
+agri:Wind rel:causes agri:Soil_Erosion .
+agri:Warehouse rel:stores agri:Pesticides .
+agri:Retailer rel:sells agri:Farm_Produce .
+agri:Distributor rel:delivers agri:Agri_Products .
+agri:Exporter rel:ships agri:Organic_Products .
+agri:Logistics_Company rel:handles agri:Large_Shipments .
+agri:Subsidy rel:supports agri:Small_Farmers .
+agri:Crop_Insurance rel:protects_against agri:Weather_Damage .
+agri:Export_Tax rel:regulates agri:Agri_Exports .
+agri:Farm_Loan rel:funds agri:Equipment_Investment .
+agri:Govt_Grant rel:encourages agri:Sustainable_Farming .
+agri:Agri_Research rel:develops agri:Pest_Resistant_Crops .
+agri:Precision_Farming rel:uses agri:AI_Models .
+agri:AgriTech_Startup rel:partners_with agri:Farmers .
+agri:Universities rel:study agri:Farming_Techniques .
+agri:Satellite_Imaging rel:tracks agri:Soil_Health .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Water_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Soil_Conservation rel:prevents agri:Land_Degradation .
+agri:Carbon_Farming rel:reduces agri:Greenhouse_Emissions .
+agri:Farmers rel:sell agri:Surplus_Produce .
+agri:Retailers rel:purchase agri:Wholesale_Goods .
+agri:Exporters rel:negotiate_with agri:Logistics_Companies .
+agri:Consumers rel:demand agri:Organic_Products .
+agri:Cooperatives rel:negotiate agri:Better_Prices .
+agri:Crop_Rotation rel:improves agri:Soil_Health .
+agri:Organic_Farming rel:avoids agri:Synthetic_Fertilizers .
+agri:Greenhouse rel:protects agri:Temperature_Sensitive_Crops .
+agri:Precision_Farming rel:utilizes agri:Satellite_Data .
+agri:AgriTech_Startup rel:collaborates_with agri:Universities .
+agri:Farmers_Association rel:lobbies_for agri:Better_Policies .
+agri:Govt_Scheme rel:supports agri:Irrigation_Projects .
+agri:Environmental_Law rel:protects agri:Farmland .
+agri:Trade_Agreement rel:impacts agri:Export_Rates .
+agri:Govt_Subsidy rel:benefits agri:Small_Holders .
+agri:Wheat rel:is_irrigated_with agri:Sprinkler_System .
+agri:Corn rel:is_protected_by agri:Pest_Control .
+agri:Rice rel:requires agri:Flood_Management .
+agri:Barley rel:benefits_from agri:Compost_Application .
+agri:Sugarcane rel:is_harvested_using agri:Mechanical_Harvester .
+agri:Loamy_Soil rel:supports agri:Root_Development .
+agri:Clay_Soil rel:retains agri:Water_Effectively .
+agri:Sandy_Soil rel:needs agri:Frequent_Fertilization .
+agri:Peat_Soil rel:enhances agri:Soil_Carbon_Content .
+agri:Fertilizer rel:boosts agri:Plant_Growth .
+agri:Seeder rel:plants agri:Wheat_Seeds .
+agri:Tractor rel:tows agri:Heavy_Equipment .
+agri:Drone rel:captures agri:Field_Imagery .
+agri:Sprinkler rel:distributes agri:Irrigation_Water .
+agri:Greenhouse rel:protects agri:Tender_Plants .
+agri:Rainfall rel:improves agri:Soil_Moisture .
+agri:Drought rel:reduces agri:Crop_Health .
+agri:Flood rel:damages agri:Infrastructure .
+agri:Wind rel:causes agri:Topsoil_Erosion .
+agri:Humidity rel:favors agri:Fungal_Growth .
+agri:Warehouse rel:stores agri:Grain_Stock .
+agri:Retailer rel:sells agri:Fresh_Produce .
+agri:Distributor rel:transports agri:Farm_Products .
+agri:Exporter rel:ships agri:Agricultural_Goods .
+agri:Logistics_Company rel:manages agri:Transport_Network .
+agri:Subsidy rel:supports agri:Sustainable_Farming .
+agri:Crop_Insurance rel:protects agri:Farmers_from_Loss .
+agri:Export_Tax rel:regulates agri:Grain_Trade .
+agri:Farm_Loan rel:funds agri:Farm_Expansion .
+agri:Govt_Grant rel:promotes agri:Agri_Research .
+agri:Agri_Research rel:develops agri:Drought_Resistant_Crops .
+agri:Precision_Farming rel:uses agri:AI_Analytics .
+agri:AgriTech_Startup rel:collaborates_with agri:Universities .
+agri:Satellite_Imaging rel:monitors agri:Crop_Health .
+agri:AI_Models rel:predict agri:Weather_Patterns .
+agri:Composting rel:reduces agri:Organic_Waste .
+agri:Water_Conservation rel:preserves agri:Water_Resources .
+agri:Agroecology rel:promotes agri:Biodiversity .
+agri:Soil_Conservation rel:prevents agri:Land_Degradation .
+agri:Carbon_Farming rel:reduces agri:Carbon_Emissions .
+agri:Farmers rel:supply agri:Local_Markets .
+agri:Retailers rel:buy_from agri:Wholesalers .
+agri:Exporters rel:negotiate_with agri:Trade_Agents .
+agri:Consumers rel:demand agri:Organic_Products .
+agri:Cooperatives rel:bargain_for agri:Better_Rates .
+agri:Crop_Rotation rel:improves agri:Soil_Health .
+agri:Organic_Farming rel:minimizes agri:Chemical_Use .
+agri:Precision_Farming rel:utilizes agri:Weather_Data .
+agri:Greenhouse rel:ensures agri:Controlled_Conditions .
+agri:Farmers_Association rel:advocates_for agri:Better_Policies .
+agri:Govt_Scheme rel:funds agri:Irrigation_Projects .
+agri:Trade_Agreement rel:impacts agri:Export_Prices .
+agri:Agri_Insurance rel:protects agri:Farmers_from_Loss .
+agri:Environmental_Law rel:preserves agri:Natural_Resources .
+agri:Research_Institute rel:innovates agri:Farming_Techniques .
+agri:Smart_Irrigation rel:conserves agri:Water_Resources .
+agri:Precision_Farming rel:uses agri:GPS_Technology .
+agri:Weather_Data rel:supports agri:Crop_Planning .
+agri:Farm_Analytics rel:optimizes agri:Yield_Production .
+agri:AgriTech_Startup rel:partners_with agri:Govt_Agencies .
+agri:Rice rel:produced_in agri:Kharif .
+agri:Rice rel:has_production agri:1206.79_MT .
+agri:Rice rel:produced_in agri:Rabi .
+agri:Rice rel:has_production agri:157.58_MT .
+agri:Rice rel:produced_in agri:Total .
+agri:Rice rel:has_production agri:1364.37_MT .
+agri:Wheat rel:produced_in agri:Rabi .
+agri:Wheat rel:has_production agri:1154.3_MT .
+agri:Wheat rel:produced_in agri:Total .
+agri:Wheat rel:has_production agri:1154.3_MT .
+agri:Maize rel:produced_in agri:Kharif .
+agri:Maize rel:has_production agri:248.11_MT .
+agri:Maize rel:produced_in agri:Rabi .
+agri:Maize rel:has_production agri:124.38_MT .
+agri:Maize rel:produced_in agri:Total .
+agri:Maize rel:has_production agri:372.5_MT .
+agri:Barley rel:produced_in agri:Rabi .
+agri:Barley rel:has_production agri:19.46_MT .
+agri:Barley rel:produced_in agri:Total .
+agri:Barley rel:has_production agri:19.46_MT .
+agri:Jowar rel:produced_in agri:Kharif .
+agri:Jowar rel:has_production agri:21.84_MT .
+agri:Jowar rel:produced_in agri:Rabi .
+agri:Jowar rel:has_production agri:30.81_MT .
+agri:Jowar rel:produced_in agri:Total .
+agri:Jowar rel:has_production agri:52.65_MT .
+agri:Bajra rel:produced_in agri:Kharif .
+agri:Bajra rel:has_production agri:94.9_MT .
+agri:Bajra rel:produced_in agri:Total .
+agri:Bajra rel:has_production agri:94.9_MT .
+agri:Ragi rel:produced_in agri:Kharif .
+agri:Ragi rel:has_production agri:16.92_MT .
+agri:Ragi rel:produced_in agri:Total .
+agri:Ragi rel:has_production agri:16.92_MT .
+agri:Small_Millets rel:produced_in agri:Kharif .
+agri:Small_Millets rel:has_production agri:3.86_MT .
+agri:Small_Millets rel:produced_in agri:Total .
+agri:Small_Millets rel:has_production agri:3.86_MT .
+agri:Shree_Anna__Nutri_Cereals rel:produced_in agri:Kharif .
+agri:Shree_Anna__Nutri_Cereals rel:has_production agri:137.52_MT .
+agri:Shree_Anna__Nutri_Cereals rel:produced_in agri:Rabi .
+agri:Shree_Anna__Nutri_Cereals rel:has_production agri:30.81_MT .
+agri:Shree_Anna__Nutri_Cereals rel:produced_in agri:Total .
+agri:Shree_Anna__Nutri_Cereals rel:has_production agri:168.34_MT .
+agri:Nutri_Coarse_Cereals rel:produced_in agri:Kharif .
+agri:Nutri_Coarse_Cereals rel:has_production agri:385.63_MT .
+agri:Nutri_Coarse_Cereals rel:produced_in agri:Rabi .
+agri:Nutri_Coarse_Cereals rel:has_production agri:174.65_MT .
+agri:Nutri_Coarse_Cereals rel:produced_in agri:Total .
+agri:Nutri_Coarse_Cereals rel:has_production agri:560.29_MT .
+agri:Cereals rel:produced_in agri:Kharif .
+agri:Cereals rel:has_production agri:1592.43_MT .
+agri:Cereals rel:produced_in agri:Rabi .
+agri:Cereals rel:has_production agri:1486.53_MT .
+agri:Cereals rel:produced_in agri:Total .
+agri:Cereals rel:has_production agri:3078.96_MT .
+agri:Tur rel:produced_in agri:Kharif .
+agri:Tur rel:has_production agri:35.11_MT .
+agri:Tur rel:produced_in agri:Total .
+agri:Tur rel:has_production agri:35.11_MT .
+agri:Gram rel:produced_in agri:Rabi .
+agri:Gram rel:has_production agri:115.35_MT .
+agri:Gram rel:produced_in agri:Total .
+agri:Gram rel:has_production agri:115.35_MT .
+agri:Urad rel:produced_in agri:Kharif .
+agri:Urad rel:has_production agri:12.82_MT .
+agri:Urad rel:produced_in agri:Rabi .
+agri:Urad rel:has_production agri:5.17_MT .
+agri:Urad rel:produced_in agri:Total .
+agri:Urad rel:has_production agri:17.99_MT .
+agri:Moong rel:produced_in agri:Kharif .
+agri:Moong rel:has_production agri:15.0_MT .
+agri:Moong rel:produced_in agri:Rabi .
+agri:Moong rel:has_production agri:1.07_MT .
+agri:Moong rel:produced_in agri:Total .
+agri:Moong rel:has_production agri:16.07_MT .
+agri:Lentil rel:produced_in agri:Rabi .
+agri:Lentil rel:has_production agri:18.17_MT .
+agri:Lentil rel:produced_in agri:Total .
+agri:Lentil rel:has_production agri:18.17_MT .
+agri:Other_Pulses rel:produced_in agri:Kharif .
+agri:Other_Pulses rel:has_production agri:8.56_MT .
+agri:Other_Pulses rel:produced_in agri:Rabi .
+agri:Other_Pulses rel:has_production agri:18.98_MT .
+agri:Other_Pulses rel:produced_in agri:Total .
+agri:Other_Pulses rel:has_production agri:27.54_MT .
+agri:Total_Pulses rel:produced_in agri:Kharif .
+agri:Total_Pulses rel:has_production agri:71.48_MT .
+agri:Total_Pulses rel:produced_in agri:Rabi .
+agri:Total_Pulses rel:has_production agri:158.74_MT .
+agri:Total_Pulses rel:produced_in agri:Total .
+agri:Total_Pulses rel:has_production agri:230.22_MT .
+agri:Total_Food_Grains rel:produced_in agri:Kharif .
+agri:Total_Food_Grains rel:has_production agri:1663.91_MT .
+agri:Total_Food_Grains rel:produced_in agri:Rabi .
+agri:Total_Food_Grains rel:has_production agri:1645.27_MT .
+agri:Total_Food_Grains rel:produced_in agri:Total .
+agri:Total_Food_Grains rel:has_production agri:3309.19_MT .
+agri:Groundnut rel:produced_in agri:Kharif .
+agri:Groundnut rel:has_production agri:104.26_MT .
+agri:Groundnut rel:produced_in agri:Rabi .
+agri:Groundnut rel:has_production agri:8.87_MT .
+agri:Groundnut rel:produced_in agri:Total .
+agri:Groundnut rel:has_production agri:113.12_MT .
+agri:Castorseed rel:produced_in agri:Kharif .
+agri:Castorseed rel:has_production agri:15.88_MT .
+agri:Castorseed rel:produced_in agri:Total .
+agri:Castorseed rel:has_production agri:15.88_MT .
+agri:Sesamum rel:produced_in agri:Kharif .
+agri:Sesamum rel:has_production agri:4.14_MT .
+agri:Sesamum rel:produced_in agri:Rabi .
+agri:Sesamum rel:has_production agri:0.22_MT .
+agri:Sesamum rel:produced_in agri:Total .
+agri:Sesamum rel:has_production agri:4.36_MT .
+agri:Nigerseed rel:produced_in agri:Kharif .
+agri:Nigerseed rel:has_production agri:0.14_MT .
+agri:Nigerseed rel:produced_in agri:Total .
+agri:Nigerseed rel:has_production agri:0.14_MT .
+agri:Soybean rel:produced_in agri:Kharif .
+agri:Soybean rel:has_production agri:151.32_MT .
+agri:Soybean rel:produced_in agri:Total .
+agri:Soybean rel:has_production agri:151.32_MT .
+agri:Sunflower rel:produced_in agri:Kharif .
+agri:Sunflower rel:has_production agri:0.64_MT .
+agri:Sunflower rel:produced_in agri:Rabi .
+agri:Sunflower rel:has_production agri:0.83_MT .
+agri:Sunflower rel:produced_in agri:Total .
+agri:Sunflower rel:has_production agri:1.47_MT .
+agri:Rapeseed___Mustard rel:produced_in agri:Rabi .
+agri:Rapeseed___Mustard rel:has_production agri:128.73_MT .
+agri:Rapeseed___Mustard rel:produced_in agri:Total .
+agri:Rapeseed___Mustard rel:has_production agri:128.73_MT .
+agri:Linseed rel:produced_in agri:Rabi .
+agri:Linseed rel:has_production agri:1.19_MT .
+agri:Linseed rel:produced_in agri:Total .
+agri:Linseed rel:has_production agri:1.19_MT .
+agri:Safflower rel:produced_in agri:Rabi .
+agri:Safflower rel:has_production agri:0.47_MT .
+agri:Safflower rel:produced_in agri:Total .
+agri:Safflower rel:has_production agri:0.47_MT .
+agri:Total_Oil_Seeds rel:produced_in agri:Kharif .
+agri:Total_Oil_Seeds rel:has_production agri:276.38_MT .
+agri:Total_Oil_Seeds rel:produced_in agri:Rabi .
+agri:Total_Oil_Seeds rel:has_production agri:140.31_MT .
+agri:Total_Oil_Seeds rel:produced_in agri:Total .
+agri:Total_Oil_Seeds rel:has_production agri:416.69_MT .
+agri:Sugarcane rel:produced_in agri:Kharif .
+agri:Sugarcane rel:has_production agri:4350.79_MT .
+agri:Sugarcane rel:produced_in agri:Total .
+agri:Sugarcane rel:has_production agri:4350.79_MT .
+agri:Cotton rel:produced_in agri:Kharif .
+agri:Cotton rel:has_production agri:294.25_MT .
+agri:Cotton rel:produced_in agri:Total .
+agri:Cotton rel:has_production agri:294.25_MT .
+agri:Jute rel:produced_in agri:Kharif .
+agri:Jute rel:has_production agri:83.08_MT .
+agri:Jute rel:produced_in agri:Total .
+agri:Jute rel:has_production agri:83.08_MT .
+agri:Mesta rel:produced_in agri:Kharif .
+agri:Mesta rel:has_production agri:3.16_MT .
+agri:Mesta rel:produced_in agri:Total .
+agri:Mesta rel:has_production agri:3.16_MT .
+agri:Jute___Mesta rel:produced_in agri:Kharif .
+agri:Jute___Mesta rel:has_production agri:86.24_MT .
+agri:Jute___Mesta rel:produced_in agri:Total .
+agri:Jute___Mesta rel:has_production agri:86.24_MT .
+
+agri:Rice rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "1206.79"
+] .
+
+agri:Rice rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "157.58"
+] .
+
+agri:Rice rel:has_production [
+    agri:season "Total" ;
+    agri:production "1364.37"
+] .
+
+agri:Wheat rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "1154.3"
+] .
+
+agri:Wheat rel:has_production [
+    agri:season "Total" ;
+    agri:production "1154.3"
+] .
+
+agri:Maize rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "248.11"
+] .
+
+agri:Maize rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "124.38"
+] .
+
+agri:Maize rel:has_production [
+    agri:season "Total" ;
+    agri:production "372.5"
+] .
+
+agri:Barley rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "19.46"
+] .
+
+agri:Barley rel:has_production [
+    agri:season "Total" ;
+    agri:production "19.46"
+] .
+
+agri:Jowar rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "21.84"
+] .
+
+agri:Jowar rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "30.81"
+] .
+
+agri:Jowar rel:has_production [
+    agri:season "Total" ;
+    agri:production "52.65"
+] .
+
+agri:Bajra rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "94.9"
+] .
+
+agri:Bajra rel:has_production [
+    agri:season "Total" ;
+    agri:production "94.9"
+] .
+
+agri:Ragi rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "16.92"
+] .
+
+agri:Ragi rel:has_production [
+    agri:season "Total" ;
+    agri:production "16.92"
+] .
+
+agri:Small_Millets rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "3.86"
+] .
+
+agri:Small_Millets rel:has_production [
+    agri:season "Total" ;
+    agri:production "3.86"
+] .
+
+agri:Shree_Anna__Nutri_Cereals rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "137.52"
+] .
+
+agri:Shree_Anna__Nutri_Cereals rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "30.81"
+] .
+
+agri:Shree_Anna__Nutri_Cereals rel:has_production [
+    agri:season "Total" ;
+    agri:production "168.34"
+] .
+
+agri:Nutri_Coarse_Cereals rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "385.63"
+] .
+
+agri:Nutri_Coarse_Cereals rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "174.65"
+] .
+
+agri:Nutri_Coarse_Cereals rel:has_production [
+    agri:season "Total" ;
+    agri:production "560.29"
+] .
+
+agri:Cereals rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "1592.43"
+] .
+
+agri:Cereals rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "1486.53"
+] .
+
+agri:Cereals rel:has_production [
+    agri:season "Total" ;
+    agri:production "3078.96"
+] .
+
+agri:Tur rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "35.11"
+] .
+
+agri:Tur rel:has_production [
+    agri:season "Total" ;
+    agri:production "35.11"
+] .
+
+agri:Gram rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "115.35"
+] .
+
+agri:Gram rel:has_production [
+    agri:season "Total" ;
+    agri:production "115.35"
+] .
+
+agri:Urad rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "12.82"
+] .
+
+agri:Urad rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "5.17"
+] .
+
+agri:Urad rel:has_production [
+    agri:season "Total" ;
+    agri:production "17.99"
+] .
+
+agri:Moong rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "15.0"
+] .
+
+agri:Moong rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "1.07"
+] .
+
+agri:Moong rel:has_production [
+    agri:season "Total" ;
+    agri:production "16.07"
+] .
+
+agri:Lentil rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "18.17"
+] .
+
+agri:Lentil rel:has_production [
+    agri:season "Total" ;
+    agri:production "18.17"
+] .
+
+agri:Other_Pulses rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "8.56"
+] .
+
+agri:Other_Pulses rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "18.98"
+] .
+
+agri:Other_Pulses rel:has_production [
+    agri:season "Total" ;
+    agri:production "27.54"
+] .
+
+agri:Total_Pulses rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "71.48"
+] .
+
+agri:Total_Pulses rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "158.74"
+] .
+
+agri:Total_Pulses rel:has_production [
+    agri:season "Total" ;
+    agri:production "230.22"
+] .
+
+agri:Total_Food_Grains rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "1663.91"
+] .
+
+agri:Total_Food_Grains rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "1645.27"
+] .
+
+agri:Total_Food_Grains rel:has_production [
+    agri:season "Total" ;
+    agri:production "3309.19"
+] .
+
+agri:Groundnut rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "104.26"
+] .
+
+agri:Groundnut rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "8.87"
+] .
+
+agri:Groundnut rel:has_production [
+    agri:season "Total" ;
+    agri:production "113.12"
+] .
+
+agri:Castorseed rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "15.88"
+] .
+
+agri:Castorseed rel:has_production [
+    agri:season "Total" ;
+    agri:production "15.88"
+] .
+
+agri:Sesamum rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "4.14"
+] .
+
+agri:Sesamum rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "0.22"
+] .
+
+agri:Sesamum rel:has_production [
+    agri:season "Total" ;
+    agri:production "4.36"
+] .
+
+agri:Nigerseed rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "0.14"
+] .
+
+agri:Nigerseed rel:has_production [
+    agri:season "Total" ;
+    agri:production "0.14"
+] .
+
+agri:Soybean rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "151.32"
+] .
+
+agri:Soybean rel:has_production [
+    agri:season "Total" ;
+    agri:production "151.32"
+] .
+
+agri:Sunflower rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "0.64"
+] .
+
+agri:Sunflower rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "0.83"
+] .
+
+agri:Sunflower rel:has_production [
+    agri:season "Total" ;
+    agri:production "1.47"
+] .
+
+agri:Rapeseed___Mustard rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "128.73"
+] .
+
+agri:Rapeseed___Mustard rel:has_production [
+    agri:season "Total" ;
+    agri:production "128.73"
+] .
+
+agri:Linseed rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "1.19"
+] .
+
+agri:Linseed rel:has_production [
+    agri:season "Total" ;
+    agri:production "1.19"
+] .
+
+agri:Safflower rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "0.47"
+] .
+
+agri:Safflower rel:has_production [
+    agri:season "Total" ;
+    agri:production "0.47"
+] .
+
+agri:Total_Oil_Seeds rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "276.38"
+] .
+
+agri:Total_Oil_Seeds rel:has_production [
+    agri:season "Rabi" ;
+    agri:production "140.31"
+] .
+
+agri:Total_Oil_Seeds rel:has_production [
+    agri:season "Total" ;
+    agri:production "416.69"
+] .
+
+agri:Sugarcane rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "4350.79"
+] .
+
+agri:Sugarcane rel:has_production [
+    agri:season "Total" ;
+    agri:production "4350.79"
+] .
+
+agri:Cotton rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "294.25"
+] .
+
+agri:Cotton rel:has_production [
+    agri:season "Total" ;
+    agri:production "294.25"
+] .
+
+agri:Jute rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "83.08"
+] .
+
+agri:Jute rel:has_production [
+    agri:season "Total" ;
+    agri:production "83.08"
+] .
+
+agri:Mesta rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "3.16"
+] .
+
+agri:Mesta rel:has_production [
+    agri:season "Total" ;
+    agri:production "3.16"
+] .
+
+agri:Jute___Mesta rel:has_production [
+    agri:season "Kharif" ;
+    agri:production "86.24"
+] .
+
+agri:Jute___Mesta rel:has_production [
+    agri:season "Total" ;
+    agri:production "86.24"
+] .
+
