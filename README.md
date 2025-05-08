@@ -1,4 +1,4 @@
-IN NEO4J BROWSER:
+IN NEO4J BROWSER: https://browser.neo4j.io/
 ENTER THE FOLLOWING CREDENTIALS TO VIEW GRAPH:
 
 NEO4J_URI = "neo4j+s://5c4c893a.databases.neo4j.io"    
